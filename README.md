@@ -1,16 +1,17 @@
 # pilsplit
 Split images into equal rows and columns. Useful for splitting spritesheets into individual sprites
 
-###Introduction
+### Introduction
 
 ---
-- Have you ever wanted to split a spritesheet into individual sprites?
 
-- Have you ever wanted to create awesome photo collages?
+* Have you ever wanted to split a spritesheet into individual sprites?
 
-- Tired of incorect splitting and offset errors?
+* Have you ever wanted to create awesome photo collages?
 
-####Your answer: PilSplit!
+* Tired of incorect splitting and offset errors?
+
+#### Your answer: PilSplit!
 
 <img src="https://i.ibb.co/Bwg5GDL/pilsplit-demo1.png"></img>
 
@@ -42,7 +43,7 @@ This is the help for the `pilsplit` command. Here is an explanation of what ever
 
 - `-s`|`--silent` - Silence all command output, do the job quietly.
 
-#####Example
+##### Example
 Split `input.png` into `2` rows and `3` columns that should be located in `out_dir` and have a
 file extension of `.jpg`, don't ask for confirmation, don't show colours, don't show the splash
 screen and be verbose.
@@ -50,7 +51,7 @@ screen and be verbose.
 $ pilsplit input.png out_dir/ 2 3 -e jpg -y -nc -ns -v
 ```
 ---
-###Installation
+### Installation
 PilSplit should work in basically any OS that can run python, though it was initially
 intended to be used on Linux. **If you are not on linux, you can still use the program,
 though you will reach some limitations.**
@@ -76,7 +77,7 @@ $ chmod +x ./configure.py
 *Tip: to remove PilSplit from `/usr/bin`, you can replace `--install` with `--remove`*.
 
 ---
-###Depencencies
+### Depencencies
 As the name suggests, PilSplit depends on `pillow` which should be taken care of by the
 configuration script, but you can install it manually using `pip`.
 
@@ -84,7 +85,7 @@ configuration script, but you can install it manually using `pip`.
 # pip install pillow
 ```
 ---
-###License
+### License
 PilSplit is licensed under the MIT License.
 ```
 MIT License
