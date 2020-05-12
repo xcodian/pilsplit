@@ -70,6 +70,7 @@ install or remove PilSplit from your system.
 $ chmod +x ./configure.py
 # ./configure.py
 ```
+or, alternatively:
 ```
 # python3 ./configure.py --install
 ```
