@@ -1,8 +1,13 @@
 #!/usr/bin/python3
+import os
 import subprocess
 import argparse
 
-parser = argparse.ArgumentParser(description='Configure PilSplit.', prog='configure')
+if os.name != 'posix':
+    print('This script is only intended for use on Linux.\nSee README file.')
+    exit(-1)
+
+parser = argparse.ArgumentParser(description='Configure PilSplit.', prog='configure.py')
 parser.add_argument('--install', action='store_true')
 parser.add_argument('--remove', action='store_true')
 args = parser.parse_args()
